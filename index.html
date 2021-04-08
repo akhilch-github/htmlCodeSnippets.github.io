@@ -15,36 +15,146 @@
     <nav class="Header">
        <span class="logo"> <img src="logo.png.png"></span> 
        <div class="content center">
-           This CheatSheet is For You
+          <b>HTML CheatSheet</b> by akhilchapa
        </div>
 
     </nav>
+
     <div class="container">
+        The following code snippets is used to make your code performance X5 times faster
+        <hr>
+        <br>
             <ol>
                <li>
-                   Html 
-                   <pre class="language-js">
-                       <code>
-var i=0;
-                       </code>
-                   </pre>
-               </li>
-               <li>
-                   html: 
+                   <b>!DOCTYPE : </b> All Html files should start with this !DOCTYPE and basic Syntax of the html files 
                    <pre class="language-html">
                        <code>
 &lt!DOCTYPE html&gt
-&lthead&gt
-    &lttitle&gt
-
-    &lt/title&gt
-&lt/head&gt
-&ltbody&gt
-
-&lt/body&gt
+&lthtml&gt
+ &lthead&gt
+   &lttitle&gt
+     TitleName
+   &lt/title&gt
+ &lt/head&gt 
+ &ltbody&gt
+ In body we can represent any tags
+ &lt/body&gt
+&lt/html&gt
+     </code>
+    </pre>
+               </li>
+               <li>
+                   <b> &lta&gt tag :</b> The &lta&gt  tag defines a hyperlink, which is used to link from one page to another.
+                   <pre class="language-html">
+                       <code>
+&lta href="https://www.akhilchapa.com"&gtVisit akhilchapa.com!</a>
                        </code>
                    </pre>
+                   <div style="text-decoration:underline;">
+                   <b>Attributes that can be linked in &lta&gt tag</b>
+                   </div>
+                   <br>
+                   
+                   <ul>
+                       <li>
+                           <b>download:</b>Here the location is to download the item from it.
+                           <pre class="language-html">
+                               <code>
+&lta href="/images/image.jpg"download &gt                                   
+                               </code>
+                           </pre>
+                       </li>
+                       <li>
+                        <b>Target attribute:</b> Used for making the clicked link to show according to the specified
+                        <pre class="language-html">
+                            <code>
+&lta target="_blank|_self|_parent|_top|framename"&gt
+&lta href="https://www.akhilchapas.com" target="_blank"&gtVisit akhl.com&lt/a&gt
+                            </code>
+                        </pre>
+                       </li>
+                       <li>
+                        <b>rel attribute:</b>
+                        <pre class="language-html">
+                            <code>
+&lta href="https://www.akhilchapa.com" type="text/html"&gtakhils&lt/a&gt
+                                
+                            </code>
+                        </pre>
+                       </li>
+                       <li>
+                        <b>How to link to mail someone:</b>
+                        <pre class="language-html">
+                            <code>
+&lta href="mailto:someone@example.com"&gtSend email&lt/a&gt
+                            </code>
+                        </pre>
+                       </li>
+                       <li>
+                        <b>How to link to a phone number:</b>
+                        <pre class="language-html">
+                            <code>
+&lta href="tel:+4733378901"&gt+47 333 78 901&lt/a&gt
+                                
+                            </code>
+                        </pre>
+                       </li>
+                       <li>
+                        <b>How to link to a JavaScript:</b>
+                        <pre class="language-html">
+                            <code>
+&lta href="javascript:alert('Hello World!');"&gtExecute JavaScript&lt/a&gt
+                            </code>
+                        </pre>
+                       </li>
+                   </ul>
                </li>
+               <li>
+                <b>Abbrevation tag :</b> it is used to show the actual title name when cursor is on the particular Abbrevation
+                <pre class="language-html">
+                    <code>
+Hey &ltabbr title="Akhil Chandra Chapa"&gt ACC &lt/abbr&gt !!!
+                    </code>
+                </pre>
+               </li>
+               <li>
+                <b><abbr> can also be used with &ltdfn&gt to define an abbreviation:</b>
+                <pre class="language-html">
+                    <code>
+                        
+&ltp&gt&ltdfn&gt&ltabbr title="Cascading Style Sheets"&gtCSS&lt/abbr&gt
+&lt/dfn&gt is a language that describes the style of an HTML document.&lt/p&gt   
+                    </code>
+                </pre>
+               </li>
+               <li>
+                <b>&ltaddress&gt Tag</b>
+                <pre class="language-html">
+                    <code>
+&ltaddress&gt
+    Written by &lta href="mailto:webmaster@example.com"&gtJon Doe&lt/a&gt.&ltbr&gt
+    Visit us at:&ltbr&gt
+    Example.com &ltbr&gt
+    Box 564, Indianland&ltbr&gt
+    India
+&lt/address&gt
+                    </code>
+                </pre>
+               </li>
+               <li>
+                <b>&ltarea&gt tag:</b> Area tag is used to navigate to another when any part in the image is being clicked.
+                <pre class="language-html">
+                    <code>
+&ltimg src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379"&gt
+&ltmap name="workmap"&gt
+  &ltarea shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm"&gt
+  &ltarea shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm"&gt
+  &ltarea shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm"&gt
+&lt/map&gt
+                    </code>
+                </pre>
+               </li>
+
             </ol>
     </div>
 </body>
